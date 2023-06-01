@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "12895708942",
+    "project_id": "findlocations-1cb24",
+    "storage_bucket": "findlocations-1cb24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12895708942:android:019515a7a64f83e149d95f",
+        "android_client_info": {
+          "package_name": "com.example.locationsfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12895708942-5vb9c655mc3as3k1vuerfcu0aak3o1ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locationsfinder",
+            "certificate_hash": "7be4b9a39d1b78dc075f7d8ba08929b142fc6664"
+          }
+        },
+        {
+          "client_id": "12895708942-tkamgs0optukiicv95m51kdo0iq0qmbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvzLSUsvJSrB-lQNA0Rf2vTSxk4lHCHjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12895708942-tkamgs0optukiicv95m51kdo0iq0qmbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

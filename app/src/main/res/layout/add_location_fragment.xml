@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/is4x4_CB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationCity_EDT"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/locationRating_EDT"
+        android:text="4x4 required"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/closingHours_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/openingHours_EDT"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Closing hour"
+        android:inputType="time"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/openingHours_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/timeFormat"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Opening hour"
+        android:inputType="time"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        android:textSize="10dp" />
+
+
+    <EditText
+        android:id="@+id/image_url_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/locationRating_EDT"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Image URL"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/locationName_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Location name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/locationCity_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/locationName_EDT"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="49dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="City or region"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/locationRating_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/locationCity_EDT"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Rating (0 - 100)"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/alwaysOpen_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasCloseParking_CB"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/locationCity_EDT"
+        android:text="Always open"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Please fill the following form"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/timeFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_url_EDT"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="10dp"
+        android:text="time format: 0 - 24 only"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/submitForm_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lats_EDT"
+
+        android:backgroundTint="@color/light_green"
+        android:text="Submit" />
+
+    <CheckBox
+        android:id="@+id/waterActivity_CB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/is4x4_CB"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/locationRating_EDT"
+        android:text="Water activity"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:id="@+id/hasCloseParking_CB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/waterActivity_CB"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/locationRating_EDT"
+        android:text="Close parking"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/lats_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/longs_EDT"
+        android:layout_marginStart="49dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/longs_EDT"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/closingHours_EDT"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Longstitude"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10dp" />
+</RelativeLayout>

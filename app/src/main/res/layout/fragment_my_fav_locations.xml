@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MyFavLocationsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/favorite_RV_main"
+        android:layout_marginBottom="40dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/no_info_text"
+        android:text="No data To Show"
+        android:textSize="25dp"/>
+
+</FrameLayout>

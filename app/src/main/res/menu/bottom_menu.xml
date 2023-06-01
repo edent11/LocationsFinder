@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Find Locations"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/locationsFragment"/>
+
+    <item android:title="My Favorites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:id="@+id/myFavLocationsFragment"/>
+
+    <item android:title="Map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:id="@+id/mapsFragment"/>
+
+    <item android:title="New Location"
+        android:icon="@drawable/ic_baseline_place_24"
+        android:id="@+id/myTripsFragment"/>
+
+</menu>
