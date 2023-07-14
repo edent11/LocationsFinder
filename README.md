@@ -1,3 +1,3 @@
 # LocationsFinder
 
-Collaborative application for planning trips
+Collaborative application for trips planning 
