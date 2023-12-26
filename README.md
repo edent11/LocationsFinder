@@ -11,12 +11,17 @@ Users can search for new places for their upcoming trips and upload new places f
 
 # Integrations And Features:
 - Firebase DB 
-- Google Auth 
+- Google Auth
 - Google maps
   
 
 # Screenshots:
 
-![LoginPage](https://github.com/edent11/LocationsFinder/assets/100879888/f1bf6eb4-28b5-4e59-b647-ba9fa1c58e55) ![RegisterPage](https://github.com/edent11/LocationsFinder/assets/100879888/4fc9f012-1366-4f8c-91d9-8d475d33b805) ![GoogleMaps](https://github.com/edent11/LocationsFinder/assets/100879888/2c983f1d-7db7-4611-85c4-39f189f74dbe) ![AppView](https://github.com/edent11/LocationsFinder/assets/100879888/0fda1d63-c405-4663-a4fb-ddd5e82dd065)
+![Register](https://github.com/edent11/LocationsFinder/assets/100879888/515ef95f-a657-4b82-9690-5497175571bf) ![SignIn](https://github.com/edent11/LocationsFinder/assets/100879888/0e9f4fab-f9cf-4f2b-a810-4a3d1809327f) 
+
+![appView](https://github.com/edent11/LocationsFinder/assets/100879888/98e3c995-aebc-4661-8cb8-0faccbd713a9) ![googleMaps](https://github.com/edent11/LocationsFinder/assets/100879888/5b339f76-7b7c-4b59-bec1-d5a3a5fdde4a)
+
+
+
 
 
