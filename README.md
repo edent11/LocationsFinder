@@ -15,7 +15,7 @@ Users can search for new places for their upcoming trips and upload new places f
 - Google Maps
   
 
-# Screenshots:
+# Screenshots
 
 ![Register](https://github.com/edent11/LocationsFinder/assets/100879888/515ef95f-a657-4b82-9690-5497175571bf) ![SignIn](https://github.com/edent11/LocationsFinder/assets/100879888/0e9f4fab-f9cf-4f2b-a810-4a3d1809327f) 
 
