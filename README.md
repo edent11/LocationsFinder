@@ -1,18 +1,18 @@
 # LocationsFinder
-### Collaborative application for planning and scheduling trips.
+### Collaborative application for planning and scheduling trips
 
 Implemented with Java on Android studio
 
 https://github.com/edent11/LocationsFinder/assets/100879888/9d83b171-4bbd-405b-afbe-986f8f8b76e3
 
 # Overview
-Users can search for new places for their upcoming trips and upload new places for other users.
+Users can search for new places for their upcoming trips and upload new places for other users
 
 
 # Integrations And Features
 - Firebase DB 
 - Google Auth
-- Google maps
+- Google Maps
   
 
 # Screenshots:
