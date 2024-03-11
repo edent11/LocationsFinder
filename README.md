@@ -1,5 +1,5 @@
 # LocationsFinder
-### Collaborative application for planning and scheduling trips
+### Collaborative app for trip planning and scheduling 
 
 Implemented with Java on Android studio
 
